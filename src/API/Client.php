@@ -12,6 +12,10 @@ class Client
 {
     /** @var GuzzleClient */
     private $client;
+    /**
+     * @var array
+     */
+    private $config;
 
     public function __construct(GuzzleClient $client, array $config)
     {
