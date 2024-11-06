@@ -9,6 +9,7 @@ class LineItem
     public $item = [];
 
     public function __construct(
+        int $number,
         string $description,
         float $price,
         int $qty,
@@ -21,6 +22,7 @@ class LineItem
         string $exportReason = 'permanent'
     ) {
         $this->item = [
+            "number" => $number,
             "description" => $description,
             "price" => $price,
             "priceCurrency" => $priceCurrency,
