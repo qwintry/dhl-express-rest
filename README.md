@@ -1,15 +1,12 @@
-# Very short description of the package
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/booni3/dhl-express-rest.svg?style=flat-square)](https://packagist.org/packages/booni3/dhl-express-rest)
-
-Package to work with the DHL Express Rest API (v2). This package is currently in development. 
+## Fork of repo booni3/dhl-express-rest
+Fixed compatibility errors with php 8.2
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require booni3/dhl-express-rest
+composer require qwintry/dhl-express-rest
 ```
 
 ## Usage
